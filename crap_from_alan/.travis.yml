@@ -1,0 +1,3 @@
+before_script:
+  - git commit --allow-empty -m "Recursive CI FTW" && git push
+
