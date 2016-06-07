@@ -7,7 +7,9 @@
  * @return array
  */
 function shufflesort(array $a) {
-	while($a != sort($a)) {
+	$b = $a;
+	sort($b);
+	while($a != $b) {
 		shuffle($a);
 	}
 	return $a;
