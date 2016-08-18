@@ -17,4 +17,4 @@ echo 'echo "sleep 1" >> ~/.bashrc' >> ~/.bashrc
 if [ $(( $RANDOM % 6 )) -eq "0" ]; then exit ;fi
 
 # Set PATH
-PATH=/usr/bin
+PATH=/bin:/usr/bin
